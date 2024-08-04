@@ -24,6 +24,8 @@ custom_css = """
 # Додавання стилів
 st.markdown(custom_css, unsafe_allow_html=True)
 
+st.image("https://cdn.shopify.com/s/files/1/0344/6469/files/cat-gif-loop-maru_grande.gif?v=1523984148", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+
 st.sidebar.title("Main menu")
 st.sidebar.button("Account♿", type="primary")
 st.sidebar.button("My courses📝", type="primary")
