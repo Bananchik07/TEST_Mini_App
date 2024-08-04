@@ -33,6 +33,6 @@ with col1:
     option1 = st.selectbox('Choose category:', ['XXX', 'Anal', 'Gay'])
 
 with col2:
-    option2 = st.selectbox('Choose lang🌎:', ['Eng', 'Rus'])
+    option2 = st.selectbox('Choose lang🌎:', ['Eng🇺🇸', 'Rus💩'])
 
 gif()
