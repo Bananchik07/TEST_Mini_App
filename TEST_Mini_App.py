@@ -1,40 +1,5 @@
 import streamlit as st
 
-# CSS для прозорого фону та контуру кнопок
-custom_css = """
-    <style>
-    .stButton > button {
-        background-color: transparent;
-        border: 2px solid transparent;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .stButton > button:hover {
-        background-color: rgba(0, 0, 0, 0.1);
-        border: 2px solid #000000;
-    }
-    .stButton > button:active {
-    color: white;
-    background-color: grey;
-    }
-    </style>
-"""
-
-# Додавання стилів
-st.markdown(custom_css, unsafe_allow_html=True)
-
-st.image("https://cdn.shopify.com/s/files/1/0344/6469/files/cat-gif-loop-maru_grande.gif?v=1523984148", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-st.image("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHMyYWxrdnMybnZzaWpxYWRtaTIwazJ2eWhhcTljbzZwc2I3cGM2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gKfNj8cYeGN63bLRkF/giphy.webp", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-
-st.sidebar.title("Main menu")
-st.sidebar.button("Account♿", type="primary")
-st.sidebar.button("My courses📝", type="primary")
-st.sidebar.button("Find course🔍", type="primary")
-st.sidebar.button("Settings⚙️", type="primary")
-
-
-
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -43,3 +8,16 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+#st.set_page_config(page_title='Green Coffee in the USA', page_icon='☕️', layout='wide', initial_sidebar_state='expanded')
+
+pages = [st.Page('pages/page_account.py',title='Account♿', default=True), 
+         st.Page('pages/page_my_courses.py',title='My courses📝'), 
+         st.Page('pages/page_find_courses.py',title='Find course🔍'), 
+         st.Page('pages/page_settings.py',title='Settings⚙️')]
+
+# !!!!!  pages/fresh_dashboard_page.py !!!!!
+
+pg = st.navigation(pages,position='sidebar')
+pg.run()
+
