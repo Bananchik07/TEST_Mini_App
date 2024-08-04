@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("ТЕСТ")
+st.title("ТЕСТ!")
 
 hide_streamlit_style = """
             <style>
