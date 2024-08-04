@@ -11,7 +11,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 #st.set_page_config(page_title='Green Coffee in the USA', page_icon='☕️', layout='wide', initial_sidebar_state='expanded')
 
-pages = [st.Page('pages/page_account.py',title='Account♿', '''default=True'''), 
+pages = [st.Page('pages/page_account.py',title='Account♿'), 
          st.Page('pages/page_my_courses.py',title='My courses📝'), 
          st.Page('pages/page_find_courses.py',title='Find course🔍'), 
          st.Page('pages/page_settings.py',title='Settings⚙️')]
