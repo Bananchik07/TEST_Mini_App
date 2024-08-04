@@ -30,9 +30,9 @@ st.title('Find course🔍')
 col1, col2 = st.columns(2)
 
 with col1:
-    option1 = st.selectbox('Виберіть опцію 1:', ['Опція 1', 'Опція 2', 'Опція 3'])
+    option1 = st.selectbox('Choose category:', ['XXX', 'Anal', 'Gay'])
 
 with col2:
-    option2 = st.selectbox('Виберіть опцію 2:', ['Опція A', 'Опція B', 'Опція C'])
+    option2 = st.selectbox('Choose lang🌎:', ['Eng', 'Ukr', 'Rus'])
 
 gif()
