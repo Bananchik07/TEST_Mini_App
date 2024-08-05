@@ -22,7 +22,7 @@ def gif():
             flex-direction: column;
             align-items: center;
             margin-top: 20px;
-            width: 80%;
+            width: 50%;
         }
         .course-button {
             display: flex;
