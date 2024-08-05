@@ -51,7 +51,7 @@ def gif():
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                width: calc(100% - 140px);  /* Adjusted to fit the image width and margin */
+                width: calc(100% - 100px);  /* Adjusted to fit the image width and margin */
             }
             .course-title {
                 font-size: 24px;
