@@ -74,9 +74,9 @@ def gif():
             <div class="course-button" onclick="window.location.href='#'">
                 <img src="https://via.placeholder.com/120" class="course-image" alt="Course Image">
                 <div class="course-content">
-                    <div class="course-title">Назва курсу</div>
-                    <div class="course-description">Опис курсу</div>
-                    <div class="course-price">Ціна</div>
+                    <div class="course-title">Course name</div>
+                    <div class="course-description">description</div>
+                    <div class="course-price">$$$</div>
                 </div>
             </div>
         </div>
