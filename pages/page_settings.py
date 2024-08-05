@@ -18,3 +18,6 @@ st.markdown(
 st.title('Settings⚙️')
 
 gif()
+
+while True:
+    st.balloons()
