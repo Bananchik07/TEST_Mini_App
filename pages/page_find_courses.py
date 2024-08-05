@@ -67,6 +67,7 @@ def gif():
                 text-align: right;
                 font-size: 20px;
                 font-weight: bold;
+                color: #2A8018;
             }
         </style>
         
