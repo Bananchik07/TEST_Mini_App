@@ -83,7 +83,7 @@ def gif():
         """
 
         # Відображення кнопки у Streamlit
-        st.markdown(button_html, unsafe_allow_html=True)
+        st.markdown(button_html_with_image_responsive, unsafe_allow_html=True)
 
 st.title('Find course🔍')
 
