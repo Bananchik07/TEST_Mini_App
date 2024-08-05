@@ -73,7 +73,7 @@ def gif():
         
         <div class="button-container">
             <div class="course-button" onclick="window.location.href='#'">
-                <img src="https://via.placeholder.com/120" class="course-image" alt="Course Image">
+                <img src="https://cdn.shopify.com/s/files/1/0344/6469/files/cat-gif-loop-maru_grande.gif?v=1523984148" class="course-image" alt="Course Image">
                 <div class="course-content">
                     <div class="course-title">Course name</div>
                     <div class="course-description">description</div>
