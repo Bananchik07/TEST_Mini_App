@@ -43,8 +43,8 @@ def gif():
                 background-color: #141921;
             }
             .course-image {
-                width: 120px;
-                height: 120px;
+                width: 80px;
+                height: 80px;
                 margin-right: 10px;
             }
             .course-content {
